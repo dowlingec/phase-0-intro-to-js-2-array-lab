@@ -24,3 +24,13 @@ function appendCat(name) {
 function prependCat(name) {
     return [name, ...cats]
 }
+
+function removeLastCat() {
+    let newCats = cats.slice(0, -1)
+    return newCats
+}
+
+function removeFirstCat() {
+    let newKitties = cats.slice(1)
+    return newKitties
+}
