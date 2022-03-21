@@ -1,6 +1,10 @@
 // Write your solution here!
 const cats = ["Milo", "Otis", "Garfield"]
 
-destructivelyAppendCat = (name) => {
+function destructivelyAppendCat(name) {
     return cats.push(name)
+}
+
+function destructivelyPrependCat(name) {
+    return cats.unshift(name)
 }
